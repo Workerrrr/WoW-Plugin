@@ -1,0 +1,7 @@
+## Interface: 100207
+## Title: New Plugin
+## Notes: ===============|r|nAuthor: Workerrrr|r|nVersion: 0.0.1|r|n===============
+## Author: Workerrrr
+## Version: 0.0.1
+
+Code.lua
