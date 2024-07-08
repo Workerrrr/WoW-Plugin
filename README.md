@@ -20,7 +20,8 @@
   ![alt text](img/3.png)
   ![alt text](img/4.png)
   ![alt text](img/5.png)
-  *这样一个插件就完成啦！(误)*
+  
+*这样一个插件就完成啦！(误)*
 
 ### 编辑TOC文件
 
@@ -30,6 +31,7 @@
 > ![alt text](img/6.png)
 
 **编辑插件基本信息**
+
 使用文本编辑器即可打开`toc`文件，但在此之前，我们先来学习一下`toc`文件中可以编辑哪些属性
 `Interface`：可以简单地将其理解为游戏版本代码，如果该项与当前的游戏版本不匹配，游戏则会提示“插件过期”
 `Title`：插件的标题
@@ -41,6 +43,7 @@
   ![alt text](img/8.png)
 
 **引用Lua文件**
+
 如果想让插件调用一个Lua文件，可以直接在`toc`中添加该文件的相对路径和文件名
 > ![alt text](img/9.png)
   ![alt text](img/10.png)
@@ -58,4 +61,11 @@
 * 重新加载游戏，聊天框成功打印字符，插件成功报错
 > ![alt text](img/13.png)
   ![alt text](img/14.png)
+
+### API
+
+魔兽世界提供了许多供插件开发者使用的API，这里提供一些使用技巧
+API查询网站：<https://wowpedia.fandom.com/wiki/World_of_Warcraft_API>
+
+*因为游戏版本的更新，部分API可能已经被更改*
 
